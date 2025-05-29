@@ -34,7 +34,7 @@ def video_extract(folder_name, folder_path, video_url, fps=1):
         for i, frame in enumerate(clip.iter_frames(fps=fps)):
             frame_path = os.path.join(full_path, f"frame_{i:04d}.jpg")
             Image.fromarray(frame).save(frame_path)
-            print(f"🖼️ Saved frame: {frame_path}")
-        print("✅ Frame extraction complete")
+            print("Saved frame: {frame_path}")
+        print("Frame extraction complete")
     except Exception as e:
         print("Error extracting frames")
