@@ -1,7 +1,7 @@
 # Youtube-Video-Extractor
 
 ## Description
-This Python program downloads a video from YouTube and extracts its frames as image files using the yt-dlp, moviepy, and Pillow libraries. It stores the extracted frames in a user-defined folder at a rate of 1 frame per second (adjustable via the fps parameter). Below is the file structure
+This Python program downloads a video from YouTube and extracts its frames as image files using the yt-dlp, moviepy, and Pillow libraries. It stores the extracted frames at a rate of 1 frame per second. Below is the file structure
 
 <br/>
 
