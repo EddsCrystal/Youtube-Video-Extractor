@@ -1,7 +1,7 @@
 # Youtube-Video-Extractor
 
 ## Pre-Requisites
-1. Python [Python.org](https://www.python.org/)
+1. [Python](https://www.python.org/)
 2. Pip
 
 ## How to use
